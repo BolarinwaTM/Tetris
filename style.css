@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+}
+
+.grid {
+    width: 200px;
+    height: 400px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #dcdde1;
+    box-shadow: 5px 5px 5px 5px rgba(179, 240, 255, .3);
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(179, 240, 255, .3);
+    -moz-box-shadow: 5px 5px 5px 5px rgba(179, 240, 255, .3);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.grid div {
+    height: 20px;
+    width: 20px;
+}
+
+.tetromino {
+    background-color: blue;
+}
+
+.mini-grid {
+    margin-left: 50px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #dce2fc;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.mini-grid div {
+    height: 20px;
+    width: 20px;
+}
+
+
+/* h3 {
+    background-color: black;
+    color: crimson;
+    display: inline-block;
+    padding: 5px, 5px, 5px, 5px;
+} */
